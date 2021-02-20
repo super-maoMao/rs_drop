@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.word_box {
+  padding: 15px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  max-height: 160px;
+}
+.flex_box {
+  width: 100%;
+}
+.input_box {
+  display: flex;
+  justify-content: center;
+}
+.word_btn {
+  margin-left: 10px !important;
+}
+.slider_box {
+  display: flex;
+  color: #606266;
+  font-size: 14px;
+  padding: 15px 0;
+}
+.update_times_box {
+  display: flex;
+  color: #606266;
+  font-size: 14px;
+  /* padding-bottom: 15px; */
+}
+.rs_box {
+  height: calc(100% - 140px);
+  width: 100%;
+}
+.rs_search_box_1 {
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+}
+
+@media (min-width: 700px) {
+  .flex_box {
+    width: 60%;
+  }
+}
